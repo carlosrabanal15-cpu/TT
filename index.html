@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TUTORS — Tutores de tu colegio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- ====== HEADER ====== -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="#/" class="brand" onclick="App.go('/')">
+        <span class="brand-mark">T</span>
+        <span class="brand-name">TUTORS</span>
+      </a>
+      <nav class="topnav" id="topnav"><!-- inyectado por JS --></nav>
+    </div>
+  </header>
+
+  <!-- ====== CONTENIDO ====== -->
+  <main id="view"><!-- las vistas se renderizan aquí --></main>
+
+  <!-- ====== MODAL ====== -->
+  <div id="modal-root"></div>
+
+  <!-- ====== TOAST ====== -->
+  <div id="toast" class="toast"></div>
+
+  <footer class="footer">
+    <p>TUTORS · Prototipo demo · Colegio (1.º a 11.º) · Pagos vía Yape Perú</p>
+  </footer>
+
+  <script src="js/pricing.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
